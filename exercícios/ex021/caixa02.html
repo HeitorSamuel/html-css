@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #84a98c;
+            margin: 0px;
+            
+        }
+
+        nav > a {
+            text-decoration: none;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+            color: #cad2c5;
+            
+        }
+
+        header{
+            background-color: #2f3e46;
+            text-align: center;
+            margin: 0px;
+            
+        }
+    
+        nav{
+            background-color: #354f52;
+            padding: 10px;
+            margin: 0px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.562);
+            
+        }
+        main{
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.432);
+        }
+
+        section{
+            background-color: #d9dfda8e;
+        
+        }
+
+        footer{
+            background-color: #2f3e46;
+            margin: 0px;
+            padding: 10px;
+        }
+
+        a > div{
+        display: none;
+        }
+
+        aside{
+            background-color: #bbcfbf;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+
+        #titulop{
+            color: #cad2c5;
+            padding: 30px;
+            margin: 0px
+            
+        }
+        .menu{
+            color: white;
+            padding: 30px;
+        }
+
+        .tituloseg{
+            color: #52796f;
+        }
+        #legenda{
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="titulop">Notícias do Futebol</h1>
+        <nav>
+            <a class="menu" href="#">Tabela de clasificação
+                <div id="fantasma">Premier League</div>
+                <div id="fantasma">La Liga</div>
+                <div id="fantasma">Bundesliga</div>
+                <div id="fantasma">Serie A TIM</div>
+            </a>
+            <a class="menu" href="#">Times</a>
+            <a class="menu" href="#">Mercado da Bola</a>
+            <a class="menu" href="#">Vídeos</a>
+        </nav>
+    </header>
+    <main>
+        <section id="ingles">
+            <article>
+                <h2 class="tituloseg">Notícias sobre o Futebol Inglês</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque modi non quisquam aliquam omnis consectetur sit illo dolorum voluptates laborum magnam quod delectus eligendi dolores, veniam neque corrupti placeat quae!</p>
+                <aside><p>Escrito por Fernando Torres</p></aside>
+            </article>
+        </section>
+        <section id="espanhol">
+            <article>
+                <h2 class="tituloseg">Notícias sobre o Futebol Espanhol</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, consequuntur, veniam facilis consectetur laboriosam accusamus suscipit veritatis ad ut temporibus error corporis! Ipsam placeat eaque perspiciatis assumenda, enim voluptatum unde!</p>
+                <aside><p>Escrito por Andrés Iniesta.</p></aside>
+            </article>
+        </section>
+        <section id="alemao">
+            <article>
+                <h2 class="tituloseg">Notícias sobre o Futebol Alemão</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat eveniet odit, veniam nesciunt doloremque earum est libero nam nobis officia expedita eos provident, fugit perspiciatis molestias? Tempore voluptas nulla doloremque!</p>
+                <aside><p>Escrito por Miroslav Klose.</p></aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p id="legenda">Não se esqueçam de conferir as nosas redes sociais.</p>
+    </footer>
+</body>
+</html>

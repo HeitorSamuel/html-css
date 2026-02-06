@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Imagens</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Testando imagnes que podem ser abertas em dispositivos diferentes, seja PC, Tablet ou Smartphone</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem grande">
+    </picture>
+    <hr>
+    <h1>Áudio em HTML5</h1>
+    <h2>Irei testar alguns áudios em HTML, veja como ficou os áudios e aproveite ao máximo.</h2>
+    <audio src="midia/lonely.mp3" autoplay controls></audio>
+    <audio src="midia/music.mp3" autoplay controls></audio>
+</body>
+</html>
