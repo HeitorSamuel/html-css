@@ -4,8 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas</title>
+    <style>
+        body{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        table{
+            width: 400px;
+            border-collapse: collapse;
+        }
+        td:hover{
+            background-color: aliceblue;
+            color: cadetblue;
+        }
+        tr{
+            background-color: cadetblue;
+            color: aliceblue;
+        }
+        tr.tr2{
+            background-color: darkgoldenrod;
+            color: honeydew;
+        }
+        td{
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center; /*Alinhamento do Horizontal*/
+            vertical-align: middle; /*Alinhamento do Vertical*/
+        }
+        .numero{
+            text-align: right;
+        }
+    </style>
 </head>
 <body>
+    <h1>Minha Primeira Tabela</h1>
+    <table>
+        <tr><!--Primeira linha-->
+            <td>A1</td>
+            <td class="numero">B1</td>
+            <td>C1</td>
+        </tr>
+        <tr class="tr2"><!--Segunda linha-->
+            <td>A2</td>
+            <td>B2</td>
+            <td>C2</td>
+        </tr>
+        <tr><!--Terceira linha-->
+            <td>A3</td>
+            <td>B3</td>
+            <td>C3</td>
+        </tr>
+        <tr><!--Quarta linha-->
+            <td>A4</td>
+            <td>B4</td>
+            <td class="numero">C4</td>
+        </tr>
+    </table>
     
 </body>
 </html>
