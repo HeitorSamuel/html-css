@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+
 *{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
@@ -11,17 +12,18 @@ html, body{
 }
 
 header{
-    background-color: #0F4D24;
+
+    background-image: linear-gradient(to bottom, #1E7F3B, #145A2A, #0F4D24);
 }
 
 header > h1{
     text-align: center;
-    padding: 10px;
     color: white;
+    padding: 60px;
 }
 
 menu{
-    display: block;
+    display: none;
 }
 
 menu > ul{
@@ -39,16 +41,41 @@ menu > ul > li > a{
 }
 
 menu > ul > li > a:hover{
+    color: lightgreen;
+    background-color: #145a2a59;
+    transition: 0.3s;
+    
+}
+
+menu > ul > li > a:active{
     background-color: #2DA44E;
+    color: white;
+}
+
+#menu-hambg{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    background-color: #145A2A;
+
+}
+
+#menu-hambg:hover{
+    background-color: #1E7F3B;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
 main{
-    width: 90vw;
+    width: 80vw;
     margin: auto;
     margin-top: 10px;
     background-color: #FFFFFF;
     padding: 20px;
     border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+
 }
 
 article > h2{
@@ -61,4 +88,5 @@ article > p{
     text-indent: 20px;
     text-align: justify;
     color: #111111;
+    line-height: 1.6;
 }
