@@ -6,12 +6,15 @@
     <title>Flex-box</title>
     <style>
         .container{
+            height: 500px;
             display: flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+            align-items: stretch;
             background-color: burlywood;
             padding: 5px;
         }
         .item{
-            flex: auto;
             background-color: cadetblue;
             border: 1px solid black;
             text-align: center;
